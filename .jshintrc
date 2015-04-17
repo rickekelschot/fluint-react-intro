@@ -1,0 +1,33 @@
+{
+    "strict": true,
+    "browser": true,
+    "nonew": false,
+    "node": true,
+    "devel": true,
+    "camelcase": false,
+    "curly": true,
+    "eqeqeq": true,
+    "indent": 4,
+    "newcap": false,
+    "noarg": true,
+    "noempty": true,
+    "quotmark": "single",
+    "undef": true,
+    "unused": true,
+    "maxparams": 6,
+    "maxlen": 180,
+    "maxdepth": 3,
+    "maxstatements": 20,
+    "globalstrict": true,
+    "globals": {
+        "window": true,
+        "$": true,
+        "Backbone": true,
+        "Modernizr": true,
+        "_": true,
+        "define": true,
+        "require": true,
+        "requirejs": true,
+        "i18n": true
+    }
+}

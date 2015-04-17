@@ -1,0 +1,14 @@
+{
+  "name": "react-intro",
+  "version": "0.0.1",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "ignore": [],
+  "private": true,
+  "dependencies": {
+    "requirejs": "~2.1.17"
+  }
+}
