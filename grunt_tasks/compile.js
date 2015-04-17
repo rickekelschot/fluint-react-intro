@@ -5,6 +5,7 @@ module.exports = function (grunt) {
     grunt.registerTask('compile', '', [
         'clean',
         'sass',
-        'copy'
+        'copy',
+        'jsx'
     ]);
 };

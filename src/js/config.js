@@ -1,7 +1,8 @@
 requirejs.config({
 
     paths: {
-
+        'react': 'vendor/react/react-with-addons',
+        'jsx-transformer': 'vendor/react/JSXTransformer'
     },
 
 
@@ -11,7 +12,7 @@ requirejs.config({
 });
 
 
-require(function () {
+require(['react'], function () {
 
     'use strict';
 

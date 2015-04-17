@@ -6,6 +6,7 @@ module.exports = function (grunt) {
         'compile',
         'connect',
         'jshint',
+        'open',
         'watch'
     ]);
 };

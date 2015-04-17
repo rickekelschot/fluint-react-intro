@@ -13,6 +13,12 @@ module.exports = {
         files: [
             'src/js/**/*.js'
         ],
-        tasks: ['jshint']
+        tasks: ['copy']
+    },
+    jsx: {
+        files: [
+            'src/js/**/*.jsx'
+        ],
+        tasks: ['jsx']
     }
 };

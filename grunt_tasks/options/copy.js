@@ -3,14 +3,14 @@ module.exports = {
     js: {
         expand: true,
         cwd: 'src/js/',
-        src: ['**'],
+        src: ['*.js'],
         dest: 'target/js'
     },
 
-    bowerComponents: {
+    html: {
         expand: true,
-        cwd: 'bower_components/',
-        src: ['**'],
-        dest: 'target/js/vendor/'
+        cwd: 'src/',
+        src: ['*.html'],
+        dest: 'target'
     }
 };
